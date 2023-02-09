@@ -40,6 +40,15 @@ export default function Resume(): JSX.Element {
           <header>
             <h4>
               Full Stack Software Engineer
+              <span className="font-normal">, Shrood BI (current)</span>
+            </h4>
+          </header>
+          <p>I just started :)</p>
+        </article>
+        <article className="pb-6">
+          <header>
+            <h4>
+              Full Stack Software Engineer
               <span className="font-normal">
                 , Pacific Residential Mortgage (2020-2022)
               </span>

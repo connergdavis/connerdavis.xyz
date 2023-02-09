@@ -33,6 +33,9 @@ export default function Index(): JSX.Element {
         </header>
         <ul className="pb-3">
           <li>
+            <a href="https://shroodbi.com">Shrood BI</a>
+          </li>
+          <li>
             <a href="https://tulup.io/brand">tulup.io</a>
           </li>
           <li>
