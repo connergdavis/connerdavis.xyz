@@ -14,14 +14,19 @@ export function links(): HtmlLinkDescriptor[] {
 }
 
 export function meta(): HtmlMetaDescriptor {
-  return { title: "Conner Davis | Full Stack Engineer" };
+  return {
+    description:
+      "Conner Davis is a Full Stack Software Engineer looking for work.",
+    title: "Conner Davis | Full Stack Software Engineer",
+  };
 }
 
 export default function App(): JSX.Element {
   return (
-    <html lang="en">
+    <html lang="en-US">
       <head>
         <meta charSet="utf-8" />
+        <meta lang="en-US" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <Meta />
         <Links />
