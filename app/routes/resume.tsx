@@ -13,17 +13,20 @@ export default function Resume(): JSX.Element {
         </header>
         <table>
           <tr>
-            <td className="w-44">CI/DevOps</td>
+            <td className="w-44">CI / DevOps</td>
             <td className="w-44">Gatsby</td>
-            <td className="w-44">Git</td>
+            <td className="w-44">Git / Github</td>
+            <td className="w-44">HTML / CSS</td>
           </tr>
           <tr>
-            <td className="w-44">HTML/CSS</td>
             <td className="w-44">JavaScript</td>
             <td className="w-44">Node.js</td>
+            <td className="w-44">React 18</td>
+            <td className="w-44">Remix</td>
           </tr>
           <tr>
-            <td className="w-44">React</td>
+            <td className="w-44">SQL</td>
+            <td className="w-44">Testing</td>
             <td className="w-44">TypeScript</td>
             <td className="w-44">WCAG</td>
           </tr>
@@ -38,7 +41,7 @@ export default function Resume(): JSX.Element {
             <h4>
               Full Stack Software Engineer
               <span className="font-normal">
-                , Pacific Residential Mortgage (2020-)
+                , Pacific Residential Mortgage (2020-2022)
               </span>
             </h4>
           </header>
@@ -94,6 +97,51 @@ export default function Resume(): JSX.Element {
       <section>
         <header>
           <h3>Personal work</h3>
+          <article className="pb-6">
+            <header>
+              <h4>
+                <code>flowbite-react</code>
+              </h4>
+              <p>
+                Since March 2022,&nbsp;
+                <a href="https://github.com/themesberg/flowbite-react/pulls?q=is%3Apr+author%3Atulup-conner">
+                  I've made over 55 merged pull requests to&nbsp;
+                  <code>flowbite-react</code> on Github.
+                </a>
+              </p>
+              <p>
+                <a href="https://flowbite.com">Flowbite</a> is an open source
+                design system centered around&nbsp;
+                <a href="https://tailwindcss.com">TailwindCSS</a>.&nbsp;
+                <code>flowbite-react</code> brings that to your React site.
+              </p>
+              <p>
+                Its first commit was in February, so I've been able to play a
+                key role in:
+              </p>
+              <ul className="mb-3">
+                <li>Creating components</li>
+                <li>Resolving accessibility issues</li>
+                <li>Writing unit tests</li>
+                <li>Introducing end-to-end testing</li>
+              </ul>
+              <p>
+                And, now, thanks to them, I am obsessed with Storybook and&nbsp;
+                <code>
+                  <a href="https://vitest.dev">vitest</a>
+                </code>
+                .
+              </p>
+              <div className="flex gap-6">
+                <a href="https://flowbite-react.com">
+                  &rarr; View <code>flowbite-react</code> docs
+                </a>
+                <a href="https://github.com/themesberg/flowbite-react/pulls?q=is%3Apr+author%3Atulup-conner">
+                  &rarr; Browse my pull requests
+                </a>
+              </div>
+            </header>
+          </article>
           <article className="pb-6">
             <header>
               <h4>Suzanne Jauchius&apos;s website</h4>
