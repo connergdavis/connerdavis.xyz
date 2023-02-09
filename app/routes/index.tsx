@@ -33,17 +33,11 @@ export default function Index(): JSX.Element {
         </header>
         <ul className="pb-3">
           <li>
-            <a href="https://shroodbi.com">Shrood BI</a>
-          </li>
-          <li>
             <a href="https://tulup.io/brand">tulup.io</a>
           </li>
           <li>
             <a href="https://flowbite-react.com">flowbite-react</a>
             &nbsp;(open source contributor)
-          </li>
-          <li>
-            <a href="https://conner.is">This website</a>
           </li>
         </ul>
         <p>
@@ -85,6 +79,9 @@ export default function Index(): JSX.Element {
             <a href="https://saclawyers.com">
               Law Office of Daniel A. Street website
             </a>
+          </li>
+          <li>
+            <a href="https://conner.is">This website</a>
           </li>
         </ul>
       </section>
