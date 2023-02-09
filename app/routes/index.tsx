@@ -15,8 +15,9 @@ const IndexPage: FC = function () {
         <h1>Hi there!</h1>
       </header>
       <p className="font-bold">
-        My name is Conner Davis, and I'm a full stack software engineer with
-        eight years of professional experience.
+        My name is Conner Davis, and I'm a full stack software engineer with 8
+        years of professional experience delivering complex web applications for
+        eCommerce clients, higher education institutions, and others.
       </p>
       <p>
         The definition has changed over time, but what I really love is (in no
