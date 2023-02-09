@@ -118,6 +118,23 @@ export default function Resume(): JSX.Element {
           </article>
           <article className="pb-6">
             <header>
+              <h4>SCU Alumni Businesses</h4>
+            </header>
+            <p>
+              A database for businesses owned by Santa Clara University alumni.
+              Users can browse the database or submit their own business, which
+              must be approved.
+            </p>
+            <p>
+              The app is simple and served to help me learn a ton about full
+              stack web development on Node.js and, in particular, REST APIs.
+            </p>
+            <a href="https://github.com/connergdavis/scu-alumni-businesses">
+              &rarr; View the code
+            </a>
+          </article>
+          <article className="pb-6">
+            <header>
               <h4>SCU Courses</h4>
             </header>
             <p>
@@ -136,23 +153,6 @@ export default function Resume(): JSX.Element {
               .
             </p>
             <a href="https://github.com/connergdavis/scu-courses">
-              &rarr; View the code
-            </a>
-          </article>
-          <article className="pb-6">
-            <header>
-              <h4>SCU Alumni Businesses</h4>
-            </header>
-            <p>
-              A database for businesses owned by Santa Clara University alumni.
-              Users can browse the database or submit their own business, which
-              must be approved.
-            </p>
-            <p>
-              The app is simple and served to help me learn a ton about full
-              stack web development on Node.js and, in particular, REST APIs.
-            </p>
-            <a href="https://github.com/connergdavis/scu-alumni-businesses">
               &rarr; View the code
             </a>
           </article>
