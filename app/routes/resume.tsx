@@ -110,10 +110,9 @@ export default function Resume(): JSX.Element {
               users across the globe.
             </p>
             <p>
-              This project's code is no longer on Github, but here's a video of
-              someone using it back in 2013!&nbsp;
+              This project's code is no longer on Github, but&nbsp;
               <a href="https://www.youtube.com/watch?v=IAi3AxI_0LM">
-                https://www.youtube.com/watch?v=IAi3AxI_0LM
+                here's a video of someone using it in 2013!
               </a>
             </p>
           </article>
@@ -130,9 +129,9 @@ export default function Resume(): JSX.Element {
             <p>
               I presented and demoed SCU Courses live at the 2019 Santa Clara
               University School of Engineering Senior Design Conference. Check
-              out my senior thesis about the project's development:&nbsp;
+              out&nbsp;
               <a href="https://scholarcommons.scu.edu/cseng_senior/148/">
-                https://scholarcommons.scu.edu/cseng_senior/148
+                my senior thesis about the project
               </a>
               .
             </p>
