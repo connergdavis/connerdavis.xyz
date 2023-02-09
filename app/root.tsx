@@ -7,7 +7,6 @@ import {
   Scripts,
   ScrollRestoration,
 } from "remix";
-import Header from "~/components/header";
 import styles from "~/tailwind.css";
 
 export function links(): HtmlLinkDescriptor[] {
@@ -15,7 +14,7 @@ export function links(): HtmlLinkDescriptor[] {
 }
 
 export function meta(): HtmlMetaDescriptor {
-  return { title: "conner" };
+  return { title: "Conner Davis | Full Stack Engineer" };
 }
 
 export default function App(): JSX.Element {
@@ -28,7 +27,6 @@ export default function App(): JSX.Element {
         <Links />
       </head>
       <body>
-        <Header />
         <main>
           <Outlet />
         </main>

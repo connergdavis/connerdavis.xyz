@@ -1,12 +1,10 @@
-const includePlugins = typeof process !== "undefined";
-
 /**
  * @type {import('@types/tailwindcss/tailwind-config').TailwindConfig}
  */
 module.exports = {
   content: ["./app/**/*.{ts,tsx}", "./public/**/*.html"],
   mode: "jit",
-  plugins: includePlugins ? [require("@tailwindcss/forms")] : [],
+  plugins: [],
   theme: {
     colors: {
       primary: "#2a1830",
