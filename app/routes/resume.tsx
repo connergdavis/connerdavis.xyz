@@ -12,9 +12,21 @@ export default function Resume(): JSX.Element {
           <h3>Skills</h3>
         </header>
         <table>
-          <tr></tr>
-          <tr></tr>
-          <tr></tr>
+          <tr>
+            <td className="w-44">Accessibility</td>
+            <td className="w-44">DevOps</td>
+            <td className="w-44">End-to-end testing</td>
+          </tr>
+          <tr>
+            <td className="w-44">Git</td>
+            <td className="w-44">HTML / CSS</td>
+            <td className="w-44">Node.js</td>
+          </tr>
+          <tr>
+            <td className="w-44">JavaScript</td>
+            <td className="w-44">React</td>
+            <td className="w-44">TypeScript</td>
+          </tr>
         </table>
       </section>
       <section className="pb-8">
@@ -44,11 +56,8 @@ export default function Resume(): JSX.Element {
               Expand up to 20% more users by seeking accessibility compliance.
             </li>
             <li>
-              Ship accurately and on time by introducing DevOps through Github.
-            </li>
-            <li>
-              Automate repetition of tasks across departments to eliminate
-              problems.
+              Ship accurately and on time by introducing DevOps and
+              end-to-end-testing.
             </li>
           </ul>
         </article>
@@ -156,6 +165,25 @@ export default function Resume(): JSX.Element {
               &rarr; View the code
             </a>
           </article>
+          <article className="pb-6">
+            <header>
+              <h4>Simple C Compiler</h4>
+            </header>
+            <p>
+              A compiler for a made-up language, "Simple C", using a
+              context-free grammar specified by my professor in Formal Language
+              Theory &amp; Compiler Construction at SCU.
+            </p>
+            <p>
+              The compiler includes semantic and syntactic checking with
+              compilation error reports. The code generator produces executable
+              Assembly code for 64-bit Intel machines running Linux. This was my
+              favorite thing in school.
+            </p>
+            <a href="https://github.com/connergdavis/simple-c-compiler">
+              &rarr; View the code
+            </a>
+          </article>
           <article>
             <header>
               <h4>Web Audio Visualizer</h4>
@@ -177,7 +205,7 @@ export default function Resume(): JSX.Element {
           <h3>Education</h3>
         </header>
         <p>Bachelor of Science, Computer Science &amp; Engineering</p>
-        <p className="text-right">Santa Clara University (2015-2019)</p>
+        <p>Santa Clara University (2015-2019)</p>
       </section>
     </section>
   );
