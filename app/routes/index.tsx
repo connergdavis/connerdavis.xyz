@@ -149,20 +149,22 @@ const MyResume: FC = function () {
       <header>
         <h2>Check out my resume</h2>
       </header>
-      <p>
-        <Link to="/resume">
-          <span className="sr-only">My resume </span> In your browser
-        </Link>
-      </p>
-      <p>
-        <Link to="conner-davis-resume.pdf">
-          <span className="sr-only">My resume </span> As a PDF
-        </Link>
-      </p>
-      <p>
-        <span className="sr-only">My resume </span>
-        <a href="https://www.linkedin.com/in/connergdavis/">On LinkedIn</a>
-      </p>
+      <ul>
+        <li>
+          <Link to="/resume">
+            <span className="sr-only">My resume </span> In your browser
+          </Link>
+        </li>
+        <li>
+          <a href="resume.pdf">
+            <span className="sr-only">My resume </span> As a PDF
+          </a>
+        </li>
+        <li>
+          <span className="sr-only">My resume </span>
+          <a href="https://www.linkedin.com/in/connergdavis/">On LinkedIn</a>
+        </li>
+      </ul>
     </section>
   );
 };
