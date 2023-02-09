@@ -13,20 +13,20 @@ export default function Resume(): JSX.Element {
         </header>
         <table>
           <tr>
-            <td className="w-44">CI / DevOps</td>
-            <td className="w-44">Gatsby</td>
+            <td className="w-44">CI / CD</td>
+            <td className="w-44">Communication</td>
+            <td className="w-44">Cypress</td>
             <td className="w-44">Git / Github</td>
-            <td className="w-44">HTML / CSS</td>
           </tr>
           <tr>
-            <td className="w-44">JavaScript</td>
+            <td className="w-44">HTML / CSS</td>
+            <td className="w-44">Next.js</td>
             <td className="w-44">Node.js</td>
-            <td className="w-44">React 18</td>
-            <td className="w-44">Remix</td>
+            <td className="w-44">React</td>
           </tr>
           <tr>
             <td className="w-44">SQL</td>
-            <td className="w-44">Testing</td>
+            <td className="w-44">Tailwind CSS</td>
             <td className="w-44">TypeScript</td>
             <td className="w-44">WCAG</td>
           </tr>
@@ -43,7 +43,16 @@ export default function Resume(): JSX.Element {
               <span className="font-normal">, Shrood BI (current)</span>
             </h4>
           </header>
-          <p>I just started :)</p>
+          <ul>
+            <li>
+              Create full stack web apps in Next.js for B2B eCommerce clients
+              doing $100M+ in yearly revenue.
+            </li>
+            <li>
+              Introduce CI/CD and testing with Docker, Cypress, and more,
+              greatly improving quality and turnaround time.
+            </li>
+          </ul>
         </article>
         <article className="pb-6">
           <header>
