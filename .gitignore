@@ -1,0 +1,19 @@
+# Cloudflare KV
+.mf
+
+# Environment variables
+.env
+
+# Node.js
+node_modules
+
+# Remix
+.cache
+build
+public/build
+
+# Tailwind CSS
+app/tailwind.css
+
+# Visual Studio Code
+.vscode

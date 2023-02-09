@@ -1,0 +1,7 @@
+{
+  "extends": "@tsconfig/remix/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": ["cypress", "node"]
+  }
+}
