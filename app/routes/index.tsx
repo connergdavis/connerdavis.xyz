@@ -61,8 +61,8 @@ const IndexPage: FC = function () {
         </header>
         <ul>
           <li>
-            <a href="https://flowbite-react-admin-dashboard.vercel.app">
-              <code>flowbite-react-admin-dashboard</code>
+            <a href="https://flowbite.com/react-admin-dashboard-pro/preview/">
+              Flowbite Pro: React Admin Dashboard
             </a>
           </li>
           <li>
@@ -82,7 +82,7 @@ const IndexPage: FC = function () {
             </a>
           </li>
           <li>
-            <a href="https://pacresmortgage590360194.netlify.app">
+            <a href="https://pacresmortgage.com">
               Pacific Residential Mortgage website
             </a>
           </li>
