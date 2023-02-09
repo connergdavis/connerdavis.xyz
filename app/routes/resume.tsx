@@ -11,26 +11,20 @@ export default function Resume(): JSX.Element {
         <header>
           <h3>Skills</h3>
         </header>
-        <table>
-          <tr>
-            <td className="w-44">CI / CD</td>
-            <td className="w-44">Communication</td>
-            <td className="w-44">Cypress</td>
-            <td className="w-44">Git / Github</td>
-          </tr>
-          <tr>
-            <td className="w-44">HTML / CSS</td>
-            <td className="w-44">Next.js</td>
-            <td className="w-44">Node.js</td>
-            <td className="w-44">React</td>
-          </tr>
-          <tr>
-            <td className="w-44">SQL</td>
-            <td className="w-44">Tailwind CSS</td>
-            <td className="w-44">TypeScript</td>
-            <td className="w-44">WCAG</td>
-          </tr>
-        </table>
+        <div className="grid grid-cols-2 md:grid-cols-4">
+          <span>CI / CD</span>
+          <span>Cypress</span>
+          <span>Git / Github</span>
+          <span>HTML / CSS</span>
+          <span>Next.js</span>
+          <span>Node.js</span>
+          <span>React</span>
+          <span>SQL</span>
+          <span>Tailwind CSS</span>
+          <span>TDD</span>
+          <span>TypeScript</span>
+          <span>WCAG</span>
+        </div>
       </section>
       <section className="pb-8">
         <header>
@@ -40,7 +34,7 @@ export default function Resume(): JSX.Element {
           <header>
             <h4>
               Full Stack Software Engineer
-              <span className="font-normal">, Shrood BI (current)</span>
+              <span className="font-normal">, Shrood BI (2022)</span>
             </h4>
           </header>
           <ul>
