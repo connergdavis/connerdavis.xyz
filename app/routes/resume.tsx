@@ -44,7 +44,8 @@ export default function Resume(): JSX.Element {
           </header>
           <ul>
             <li>
-              Redesign 500-page mobile-unfriendly Wordpress as Gatsby Progressive Web App (
+              Redesign 500-page mobile-unfriendly Wordpress as Gatsby
+              Progressive Web App (
               <a href="https://pacresmortgage590360194.netlify.app">
                 pacresmortgage.com
               </a>
@@ -52,13 +53,15 @@ export default function Resume(): JSX.Element {
             </li>
             <li>Optimize load time 15x faster on every page.</li>
             <li>
-Expand to up to 20% more users by introducing accessibility conformance.
+              Expand to up to 20% more users by introducing WCAG conformance.
             </li>
             <li>
-Ship accurately and on time with Cypress end-to-end testing, Github CI workflows.
+              Ship accurately and on time with Cypress end-to-end testing,
+              Github CI workflows.
             </li>
             <li>
-Save hundreds of hours of manual work per year by automating content updates.
+              Save hundreds of hours of manual work per year by automating
+              content updates.
             </li>
           </ul>
         </article>
@@ -77,10 +80,13 @@ Save hundreds of hours of manual work per year by automating content updates.
               <a href="https://scu.edu">scu.edu</a>).
             </li>
             <li>
-              Lear Node to create design system unifying brand in hundreds of thousands of pages (<a href="https://brand.scu.edu">brand.scu.edu</a>).
+              Lear Node to create design system unifying brand in hundreds of
+              thousands of pages (
+              <a href="https://brand.scu.edu">brand.scu.edu</a>).
             </li>
             <li>
-Cooperate with department leaders to design pages viewed by millions every year.
+              Cooperate with department leaders to design pages viewed by
+              millions every year.
             </li>
           </ul>
         </article>
@@ -88,6 +94,27 @@ Cooperate with department leaders to design pages viewed by millions every year.
       <section>
         <header>
           <h3>Personal work</h3>
+          <article className="pb-6">
+            <header>
+              <h4>Suzanne Jauchius&apos;s website</h4>
+            </header>
+            <p>
+              I redesigned an overly complicated Weebly site in&nbsp;
+              <a href="https://remix.run">Remix</a> and&nbsp;
+              <a href="https://tailwindcss.com">tailwindcss</a>. Changes can be
+              made effortlessly, and go live in less than two minutes
+              using&nbsp;
+              <a href="https://pages.cloudflare.com/">Cloudflare Pages.</a>
+            </p>
+            <p>
+              I also helped the client transition to a CRM, which immensely
+              reduced the time they spend sending emails and organizing a
+              handwritten datebook.
+            </p>
+            <a href="https://suzannejauchius.com">
+              &rarr; View suzannejauchius.com
+            </a>
+          </article>
           <article className="pb-6">
             <header>
               <h4>The Law Office of Daniel A. Street website</h4>

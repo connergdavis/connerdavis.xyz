@@ -25,21 +25,30 @@ export default function Index(): JSX.Element {
         I've been working professionally since 2015, but I started writing HTML
         when I was 10 years old, and I've been obsessed ever since.
       </p>
+      <p>I really like TypeScript and React.</p>
       <p></p>
       <section className="py-8">
         <header>
           <h2>What I'm working on right now</h2>
         </header>
-        <ul>
+        <ul className="pb-3">
           <li>
-            <a href="https://pacresmortgage590360194.netlify.app">
-              Pacific Residential Mortgage website
-            </a>
+            <a href="https://tulup.io/brand">tulup.io</a>
+          </li>
+          <li>
+            <a href="https://flowbite-react.com">flowbite-react</a>
+            &nbsp;(open source contributor)
           </li>
           <li>
             <a href="https://conner.is">This website</a>
           </li>
         </ul>
+        <p>
+          You can find my open-source contributions on GitHub under the
+          aliases&nbsp;
+          <a href="https://github.com/connergdavis">connergdavis</a> and&nbsp;
+          <a href="https://github.com/tulup-conner">tulup-conner</a>.
+        </p>
       </section>
       <section>
         <header>
@@ -52,6 +61,16 @@ export default function Index(): JSX.Element {
           <li>
             <a href="https://brand.scu.edu">
               Santa Clara University design system
+            </a>
+          </li>
+          <li>
+            <a href="https://pacresmortgage590360194.netlify.app">
+              Pacific Residential Mortgage website
+            </a>
+          </li>
+          <li>
+            <a href="https://suzannejauchius.pages.dev">
+              Suzanne Jauchius&apos;s website
             </a>
           </li>
           <li>
