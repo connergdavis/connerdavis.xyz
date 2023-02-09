@@ -10,7 +10,19 @@ export const meta: MetaFunction = function () {
 
 const IndexPage: FC = function () {
   return (
-    <section className="p-8">
+    <div className="p-8 grid grid-cols-1 gap-y-8">
+      <Summary />
+      <WhatIveDelivered />
+      <WhatImWorkingOn />
+      <MyResume />
+      <Contact />
+    </div>
+  );
+};
+
+const Summary: FC = function () {
+  return (
+    <section>
       <header>
         <h1>Hi there!</h1>
       </header>
@@ -46,94 +58,123 @@ const IndexPage: FC = function () {
         </a>
         , a promising new Tailwind CSS-based React component library.
       </p>
-      <p></p>
-      <section className="py-8">
-        <header>
-          <h2>What I'm working on right now</h2>
-        </header>
-        <ul className="pb-3">
-          <li>
-            <a href="https://tulup.io/brand">tulup.io</a>
-          </li>
-          <li>
-            <a href="https://flowbite-react.com">flowbite-react</a>
-            &nbsp;(open source contributor)
-          </li>
-        </ul>
-        <p>
-          You can find my open-source contributions on GitHub under the
-          aliases&nbsp;
-          <a href="https://github.com/connergdavis">connergdavis</a> and&nbsp;
-          <a href="https://github.com/tulup-conner">tulup-conner</a>.
-        </p>
-      </section>
-      <section>
-        <header>
-          <h2>What I've delivered</h2>
-        </header>
-        <ul>
-          <li>
-            <a href="https://github.com/themesberg/flowbite-react-admin-dashboard">
-              Flowbite: React Admin Dashboard (free)
-            </a>
-          </li>
-          <li>
-            <a href="https://flowbite.com/react-admin-dashboard-pro/preview/">
-              Flowbite Pro: React Admin Dashboard
-            </a>
-          </li>
-          <li>
-            <a href="https://waterbear.design">Water Bear Design</a>
-          </li>
-          <li>
-            <a href="https://flowbite-react.com">
-              <code>flowbite-react</code>
-            </a>
-          </li>
-          <li>
-            <a href="https://scu.edu">Santa Clara University website</a>
-          </li>
-          <li>
-            <a href="https://brand.scu.edu">
-              Santa Clara University design system
-            </a>
-          </li>
-          <li>
-            <a href="https://pacresmortgage.com">
-              Pacific Residential Mortgage website
-            </a>
-          </li>
-          <li>
-            <a href="https://suzannejauchius.com">
-              Suzanne Jauchius&apos;s website
-            </a>
-          </li>
-          <li>
-            <a href="https://saclawyers.com">
-              Law Office of Daniel A. Street website
-            </a>
-          </li>
-          <li>
-            <a href="https://conner.is">This website</a>
-          </li>
-        </ul>
-      </section>
-      <section className="py-8">
-        <header>
-          <h2>Check out my resume</h2>
-        </header>
-        <p>
-          <Link to="/resume">In your browser</Link>
-        </p>
-        <p>
-          <Link to="conner-davis-resume.pdf">As a PDF</Link>
-        </p>
-      </section>
-      <section>
-        <header>
-          <h2>Get in contact</h2>
-        </header>
-        <table>
+    </section>
+  );
+};
+
+const WhatIveDelivered: FC = function () {
+  return (
+    <section>
+      <header>
+        <h2>What I've delivered</h2>
+      </header>
+      <ul>
+        <li>
+          <a href="https://github.com/themesberg/flowbite-react-admin-dashboard">
+            Flowbite: React Admin Dashboard (free)
+          </a>
+        </li>
+        <li>
+          <a href="https://flowbite.com/react-admin-dashboard-pro/preview/">
+            Flowbite Pro: React Admin Dashboard
+          </a>
+        </li>
+        <li>
+          <a href="https://waterbear.design">Water Bear Design</a>
+        </li>
+        <li>
+          <a href="https://flowbite-react.com">
+            <code>flowbite-react</code>
+          </a>
+        </li>
+        <li>
+          <a href="https://scu.edu">Santa Clara University website</a>
+        </li>
+        <li>
+          <a href="https://brand.scu.edu">
+            Santa Clara University design system
+          </a>
+        </li>
+        <li>
+          <a href="https://pacresmortgage.com">
+            Pacific Residential Mortgage website
+          </a>
+        </li>
+        <li>
+          <a href="https://suzannejauchius.com">
+            Suzanne Jauchius&apos;s website
+          </a>
+        </li>
+        <li>
+          <a href="https://saclawyers.com">
+            Law Office of Daniel A. Street website
+          </a>
+        </li>
+        <li>
+          <a href="https://connerdavis.xyz">This website</a>
+        </li>
+      </ul>
+    </section>
+  );
+};
+
+const WhatImWorkingOn: FC = function () {
+  return (
+    <section>
+      <header>
+        <h2>What I'm working on right now</h2>
+      </header>
+      <ul className="pb-3">
+        <li>
+          <a href="https://tulup.io/brand">tulup.io</a>
+        </li>
+        <li>
+          <a href="https://flowbite-react.com">flowbite-react</a>
+          &nbsp;(open source contributor)
+        </li>
+      </ul>
+      <p>
+        You can find my open-source contributions on GitHub under the
+        aliases&nbsp;
+        <a href="https://github.com/connergdavis">connergdavis</a> and&nbsp;
+        <a href="https://github.com/tulup-conner">tulup-conner</a>.
+      </p>
+    </section>
+  );
+};
+
+const MyResume: FC = function () {
+  return (
+    <section>
+      <header>
+        <h2>Check out my resume</h2>
+      </header>
+      <p>
+        <Link to="/resume">
+          <span className="sr-only">My resume </span> In your browser
+        </Link>
+      </p>
+      <p>
+        <Link to="conner-davis-resume.pdf">
+          <span className="sr-only">My resume </span> As a PDF
+        </Link>
+      </p>
+      <p>
+        <span className="sr-only">My resume </span>
+        <a href="https://www.linkedin.com/in/connergdavis/">On LinkedIn</a>
+      </p>
+    </section>
+  );
+};
+
+const Contact: FC = function () {
+  return (
+    <section>
+      <header>
+        <h2>Get in contact</h2>
+      </header>
+      <table>
+        <tbody>
           <tr>
             <td className="w-32">Email</td>
             <td>
@@ -156,8 +197,8 @@ const IndexPage: FC = function () {
               </a>
             </td>
           </tr>
-        </table>
-      </section>
+        </tbody>
+      </table>
     </section>
   );
 };
