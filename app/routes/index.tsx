@@ -61,6 +61,11 @@ const IndexPage: FC = function () {
         </header>
         <ul>
           <li>
+            <a href="https://github.com/themesberg/flowbite-react-admin-dashboard">
+              Flowbite: React Admin Dashboard (free)
+            </a>
+          </li>
+          <li>
             <a href="https://flowbite.com/react-admin-dashboard-pro/preview/">
               Flowbite Pro: React Admin Dashboard
             </a>

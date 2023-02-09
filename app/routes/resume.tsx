@@ -136,6 +136,14 @@ const ResumePage: FC = function () {
               </a>
               .
             </p>
+            <p>
+              There's also a completely free version of Flowbite's Admin
+              Dashboard in React, which you can&nbsp;
+              <a href="https://github.com/themesberg/flowbite-react-admin-dashboard">
+                find on Github
+              </a>
+              !
+            </p>
             <div className="flex gap-6">
               <a href="https://flowbite.com/react-admin-dashboard-pro/preview/">
                 &rarr; View <code>Flowbite Pro: React Admin Dashboard</code>
