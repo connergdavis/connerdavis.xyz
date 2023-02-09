@@ -13,19 +13,19 @@ export default function Resume(): JSX.Element {
         </header>
         <table>
           <tr>
-            <td className="w-44">Accessibility</td>
-            <td className="w-44">DevOps</td>
-            <td className="w-44">End-to-end testing</td>
+            <td className="w-44">CI/DevOps</td>
+            <td className="w-44">Gatsby</td>
+            <td className="w-44">Git</td>
           </tr>
           <tr>
-            <td className="w-44">Git</td>
-            <td className="w-44">HTML / CSS</td>
+            <td className="w-44">HTML/CSS</td>
+            <td className="w-44">JavaScript</td>
             <td className="w-44">Node.js</td>
           </tr>
           <tr>
-            <td className="w-44">JavaScript</td>
             <td className="w-44">React</td>
             <td className="w-44">TypeScript</td>
+            <td className="w-44">WCAG</td>
           </tr>
         </table>
       </section>
@@ -38,26 +38,27 @@ export default function Resume(): JSX.Element {
             <h4>
               Full Stack Software Engineer
               <span className="font-normal">
-                , Pacific Residential Mortgage (2019-)
+                , Pacific Residential Mortgage (2020-)
               </span>
             </h4>
           </header>
           <ul>
             <li>
-              Redesign 500-page mobile-unfriendly Wordpress into Progressive Web
-              App (
+              Redesign 500-page mobile-unfriendly Wordpress as Gatsby Progressive Web App (
               <a href="https://pacresmortgage590360194.netlify.app">
                 pacresmortgage.com
               </a>
               ).
             </li>
-            <li>Reduce load time up to 15x on every page.</li>
+            <li>Optimize load time 15x faster on every page.</li>
             <li>
-              Expand up to 20% more users by seeking accessibility compliance.
+Expand to up to 20% more users by introducing accessibility conformance.
             </li>
             <li>
-              Ship accurately and on time by introducing DevOps and
-              end-to-end-testing.
+Ship accurately and on time with Cypress end-to-end testing, Github CI workflows.
+            </li>
+            <li>
+Save hundreds of hours of manual work per year by automating content updates.
             </li>
           </ul>
         </article>
@@ -66,25 +67,20 @@ export default function Resume(): JSX.Element {
             <h4>
               Full Stack Software Engineer
               <span className="font-normal">
-                , Santa Clara University (2015-2019)
+                , Santa Clara University (2015-2020)
               </span>
             </h4>
           </header>
           <ul>
             <li>
-              Launch all-new responsive web app to 250k monthly users (
+              Launch all-new responsive web app to 500,000 monthly users (
               <a href="https://scu.edu">scu.edu</a>).
             </li>
             <li>
-              Cooperate with leaders to design &amp; code pages viewed by
-              millions every year.
+              Lear Node to create design system unifying brand in hundreds of thousands of pages (<a href="https://brand.scu.edu">brand.scu.edu</a>).
             </li>
             <li>
-              Create design system to unify hundreds of posts per month (
-              <a href="https://brand.scu.edu">brand.scu.edu</a>).
-            </li>
-            <li>
-              Upgraded front end design workflow with modern JavaScript tooling.
+Cooperate with department leaders to design pages viewed by millions every year.
             </li>
           </ul>
         </article>
