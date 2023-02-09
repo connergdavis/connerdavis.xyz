@@ -38,8 +38,19 @@ const App: FC = function () {
         <ScrollRestoration />
         <Scripts />
         {process.env.NODE_ENV === "development" && <LiveReload />}
+        <CloudflareWebAnalytics />
       </body>
     </html>
+  );
+};
+
+const CloudflareWebAnalytics: FC = function () {
+  return (
+    <script
+      data-cf-beacon='{"token": "2374b26069754797959758ad6a788a17"}'
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+    />
   );
 };
 

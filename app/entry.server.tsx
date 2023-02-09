@@ -8,6 +8,7 @@ const frameAncestors = "'none'";
 const imgs = "'self'";
 const media = "'none'";
 const objects = "'none'";
+const scripts = "'self' static.cloudflareinsights.com";
 const styles = "'self'";
 
 export default function handleRequest(
@@ -36,11 +37,6 @@ export default function handleRequest(
 }
 
 function contentSecurityPolicy(): string {
-  const isDevelopmentMode = process.env["NODE_ENV"] === "development";
-  const scripts =
-    "'self' static.cloudflareinsights.com " +
-    (isDevelopmentMode ? "'unsafe-inline'" : "");
-
   return (
     "default-src 'self'; " +
     "base-uri 'none'; " +
