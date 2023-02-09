@@ -19,20 +19,19 @@ const ResumePage: FC = function () {
         <header>
           <h3>Skills</h3>
         </header>
-        <div className="grid grid-cols-2 md:grid-cols-4">
-          <span>CI / CD</span>
-          <span>Cypress</span>
-          <span>Git / Github</span>
-          <span>HTML / CSS</span>
-          <span>Next.js</span>
-          <span>Node.js</span>
-          <span>React</span>
-          <span>SQL</span>
-          <span>Tailwind CSS</span>
-          <span>TDD</span>
-          <span>TypeScript</span>
-          <span>WCAG</span>
-        </div>
+        <ul className="grid grid-cols-2 md:grid-cols-4">
+          <li>CI/CD</li>
+          <li>Cypress</li>
+          <li>Git/Github</li>
+          <li>HTML/CSS/Sass</li>
+          <li>Next.js</li>
+          <li>Node.js</li>
+          <li>React 18</li>
+          <li>SQL</li>
+          <li>Tailwind CSS</li>
+          <li>TypeScript</li>
+          <li>WCAG 2.1</li>
+        </ul>
       </section>
       <section className="pb-8">
         <header>
@@ -47,12 +46,11 @@ const ResumePage: FC = function () {
           </header>
           <ul>
             <li>
-              Create full stack web apps in Next.js for B2B eCommerce clients
-              doing $100M+ in yearly revenue.
+              Create B2B web apps for $100M+ annual sales eCommerce clients.
             </li>
             <li>
-              Introduce CI/CD and testing with Docker, Cypress, and more,
-              greatly improving quality and turnaround time.
+              Optimize future project completion time up to 20x with custom
+              Next.js templates leveraging Prisma, CI & end-to-end testing.
             </li>
           </ul>
         </article>
@@ -67,23 +65,13 @@ const ResumePage: FC = function () {
           </header>
           <ul>
             <li>
-              Redesign 500-page mobile-unfriendly Wordpress as Gatsby
-              Progressive Web App (
+              Redesign 500-page Wordpress site in React & TypeScript (
               <a href="https://pacresmortgage.com">pacresmortgage.com</a>
-              ).
+              ), quickening load time 15x on every page.
             </li>
-            <li>Optimize load time 15x faster on every page.</li>
-            <li>
-              Expand to up to 20% more users by introducing WCAG conformance.
-            </li>
-            <li>
-              Ship accurately and on time with Cypress end-to-end testing,
-              Github CI workflows.
-            </li>
-            <li>
-              Save hundreds of hours of manual work per year by automating
-              content updates.
-            </li>
+            <li>Market to 20% more users by introducing a11y conformance.</li>
+            <li>Save 1000s of hours by automating routine content updates.</li>
+            <li>Ship bug-free & on-time with Cypress & Github CI/CD.</li>
           </ul>
         </article>
         <article>
@@ -97,16 +85,15 @@ const ResumePage: FC = function () {
           </header>
           <ul>
             <li>
-              Launch all-new responsive web app to 500,000 monthly users (
+              Launch responsive web app to 500,000 monthly users (
               <a href="https://scu.edu">scu.edu</a>).
             </li>
             <li>
-              Lear Node to create design system unifying brand in hundreds of
-              thousands of pages (
-              <a href="https://brand.scu.edu">brand.scu.edu</a>).
+              Unify branding across 10,000s of pages by creating Bootstrap-based
+              design system (<a href="https://brand.scu.edu">brand.scu.edu</a>).
             </li>
             <li>
-              Cooperate with department leaders to design pages viewed by
+              Collaborate with university heads to design pages viewed by
               millions every year.
             </li>
           </ul>

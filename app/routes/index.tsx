@@ -15,7 +15,8 @@ const IndexPage: FC = function () {
         <h1>Hi there!</h1>
       </header>
       <p className="font-bold">
-        My name is Conner Davis, and I'm a full stack software engineer.
+        My name is Conner Davis, and I'm a full stack software engineer with
+        eight years of professional experience.
       </p>
       <p>
         The definition has changed over time, but what I really love is (in no
@@ -33,7 +34,17 @@ const IndexPage: FC = function () {
         I've been working professionally since 2015, but I started writing HTML
         when I was 10 years old, and I've been obsessed ever since.
       </p>
-      <p>I really like TypeScript and React.</p>
+      <p>
+        You can read more about my professional experience by browsing&nbsp;
+        <Link to="/resume">my resume</Link>.
+      </p>
+      <p>
+        I'm active in open source, with&nbsp;
+        <a href="https://github.com/themesberg/flowbite-react/pulls?q=is%3Apr+author%3Atulup-conner">
+          50+ pull requests to flowbite-react
+        </a>
+        , a promising new Tailwind CSS-based React component library.
+      </p>
       <p></p>
       <section className="py-8">
         <header>
