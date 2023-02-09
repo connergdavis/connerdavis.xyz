@@ -56,6 +56,11 @@ export default function Index(): JSX.Element {
         </header>
         <ul>
           <li>
+            <a href="https://flowbite-react.com">
+              <code>flowbite-react</code>
+            </a>
+          </li>
+          <li>
             <a href="https://scu.edu">Santa Clara University website</a>
           </li>
           <li>
@@ -69,7 +74,7 @@ export default function Index(): JSX.Element {
             </a>
           </li>
           <li>
-            <a href="https://suzannejauchius.pages.dev">
+            <a href="https://suzannejauchius.com">
               Suzanne Jauchius&apos;s website
             </a>
           </li>
