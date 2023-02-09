@@ -18,7 +18,7 @@ export const meta: MetaFunction = function () {
   return {
     charSet: "utf-8",
     description:
-      "Conner Davis is a Full Stack Software Engineer who's always looking for new opportunities.",
+      "Conner Davis is a Full Stack Software Engineer who's always looking for new opportunities to grow.",
     lang: "en-US",
     viewport: "width=device-width,initial-scale=1",
   };
