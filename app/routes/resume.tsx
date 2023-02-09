@@ -173,6 +173,13 @@ export default function Resume(): JSX.Element {
           </article>
         </header>
       </section>
+      <section className="py-8">
+        <header>
+          <h3>Education</h3>
+        </header>
+        <p>Bachelor of Science, Computer Science &amp; Engineering</p>
+        <p className="text-right">Santa Clara University (2015-2019)</p>
+      </section>
     </section>
   );
 }
