@@ -1,6 +1,14 @@
-import { Link } from "remix";
+import { MetaFunction } from "@remix-run/cloudflare";
+import { Link } from "@remix-run/react";
+import type { FC } from "react";
 
-export default function Index(): JSX.Element {
+export const meta: MetaFunction = function () {
+  return {
+    title: "Conner Davis | Full Stack Software Engineer",
+  };
+};
+
+const IndexPage: FC = function () {
   return (
     <section className="p-8">
       <header>
@@ -52,6 +60,14 @@ export default function Index(): JSX.Element {
           <h2>What I've delivered</h2>
         </header>
         <ul>
+          <li>
+            <a href="https://flowbite-react-admin-dashboard.vercel.app">
+              <code>flowbite-react-admin-dashboard</code>
+            </a>
+          </li>
+          <li>
+            <a href="https://waterbear.design">Water Bear Design</a>
+          </li>
           <li>
             <a href="https://flowbite-react.com">
               <code>flowbite-react</code>
@@ -127,4 +143,6 @@ export default function Index(): JSX.Element {
       </section>
     </section>
   );
-}
+};
+
+export default IndexPage;

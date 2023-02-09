@@ -1,4 +1,4 @@
-import type { HtmlLinkDescriptor, HtmlMetaDescriptor } from "remix";
+import type { LinksFunction, MetaFunction } from "@remix-run/cloudflare";
 import {
   Links,
   LiveReload,
@@ -6,28 +6,28 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-} from "remix";
-import styles from "~/tailwind.css";
+} from "@remix-run/react";
+import type { FC } from "react";
+import styles from "./styles.css";
 
-export function links(): HtmlLinkDescriptor[] {
+export const links: LinksFunction = function () {
   return [{ href: styles, rel: "stylesheet" }];
-}
+};
 
-export function meta(): HtmlMetaDescriptor {
+export const meta: MetaFunction = function () {
   return {
+    charSet: "utf-8",
     description:
-      "Conner Davis is a Full Stack Software Engineer looking for work.",
-    title: "Conner Davis | Full Stack Software Engineer",
+      "Conner Davis is a Full Stack Software Engineer who's always looking for new opportunities.",
+    lang: "en-US",
+    viewport: "width=device-width,initial-scale=1",
   };
-}
+};
 
-export default function App(): JSX.Element {
+const App: FC = function () {
   return (
     <html lang="en-US">
       <head>
-        <meta charSet="utf-8" />
-        <meta lang="en-US" />
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
         <Meta />
         <Links />
       </head>
@@ -41,4 +41,6 @@ export default function App(): JSX.Element {
       </body>
     </html>
   );
-}
+};
+
+export default App;

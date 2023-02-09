@@ -67,7 +67,7 @@
   }
 
   a {
-    @apply text-primary;
+    @apply text-blue-600;
     @apply underline;
   }
 

@@ -1,7 +1,5 @@
 {
   "extends": "@tsconfig/remix/tsconfig.json",
-  "compilerOptions": {
-    "baseUrl": ".",
-    "types": ["cypress", "node"]
-  }
+  "exclude": [".cache", "functions", "node_modules", "public/build"],
+  "include": ["**/*.js", "**/*.mjs", "**/*.ts", "**/*.tsx"]
 }

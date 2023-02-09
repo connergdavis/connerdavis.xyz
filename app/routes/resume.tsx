@@ -1,6 +1,14 @@
-import { Link } from "remix";
+import { MetaFunction } from "@remix-run/cloudflare";
+import { Link } from "@remix-run/react";
+import type { FC } from "react";
 
-export default function Resume(): JSX.Element {
+export const meta: MetaFunction = function () {
+  return {
+    title: "Conner Davis | Resume",
+  };
+};
+
+const ResumePage: FC = function () {
   return (
     <section className="p-8">
       <Link to="/">&larr; Return to home</Link>
@@ -112,19 +120,60 @@ export default function Resume(): JSX.Element {
           <article className="pb-6">
             <header>
               <h4>
+                <code>Water Bear Design</code>
+              </h4>
+              <p>
+                I love designing websites and apps, and I met someone who's
+                really good at design, and we started a design agency together.
+                We would love to work with you!
+              </p>
+              <p>
+                The page is designed in React and Tailwind CSS, using&nbsp;
+                <code>flowbite-react</code>, and deployed to Remix on Cloudflare
+                Pages.
+              </p>
+              <div className="flex gap-6">
+                <a href="https://waterbear.design">
+                  &rarr; View <code>waterbear.design</code>
+                </a>
+              </div>
+            </header>
+          </article>
+          <article className="pb-6">
+            <header>
+              <h4>
+                <code>flowbite-react-admin-dashboard</code>
+              </h4>
+              <p>
+                After my contributions to <code>flowbite-react</code>, the team
+                at Themesberg asked me to create a React version of their
+                beautiful Application UI, which is essentially an admin
+                dashboard. We just finished the first release, and I'm very
+                excited to see people use it.
+              </p>
+              <div className="flex gap-6">
+                <a href="https://flowbite-react-admin-dashboard.vercel.app">
+                  &rarr; View <code>flowbite-react-admin-dashboard</code>
+                </a>
+              </div>
+            </header>
+          </article>
+          <article className="pb-6">
+            <header>
+              <h4>
                 <code>flowbite-react</code>
               </h4>
               <p>
                 Since March 2022,&nbsp;
                 <a href="https://github.com/themesberg/flowbite-react/pulls?q=is%3Apr+author%3Atulup-conner">
-                  I've made over 55 merged pull requests to&nbsp;
+                  I've made more than 65 merged pull requests to&nbsp;
                   <code>flowbite-react</code> on Github.
                 </a>
               </p>
               <p>
                 <a href="https://flowbite.com">Flowbite</a> is an open source
-                design system centered around&nbsp;
-                <a href="https://tailwindcss.com">TailwindCSS</a>.&nbsp;
+                design system built on&nbsp;
+                <a href="https://tailwindcss.com">Tailwind CSS</a>.&nbsp;
                 <code>flowbite-react</code> brings that to your React site.
               </p>
               <p>
@@ -138,7 +187,8 @@ export default function Resume(): JSX.Element {
                 <li>Introducing end-to-end testing</li>
               </ul>
               <p>
-                And, now, thanks to them, I am obsessed with Storybook and&nbsp;
+                And, now, thanks to them, I am obsessed with{" "}
+                <a href="https://storybook.js.org">Storybook</a> and&nbsp;
                 <code>
                   <a href="https://vitest.dev">vitest</a>
                 </code>
@@ -292,4 +342,6 @@ export default function Resume(): JSX.Element {
       </section>
     </section>
   );
-}
+};
+
+export default ResumePage;
