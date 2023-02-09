@@ -109,7 +109,7 @@ const IndexPage: FC = function () {
           <Link to="/resume">In your browser</Link>
         </p>
         <p>
-          <Link to="resume.pdf">As a PDF</Link>
+          <Link to="conner-davis-resume.pdf">As a PDF</Link>
         </p>
       </section>
       <section>
