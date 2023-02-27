@@ -52,9 +52,9 @@ const Summary: FC = function () {
         <Link to="/resume">my resume</Link>.
       </p>
       <p>
-        I'm active in open source, with&nbsp;
+        I'm active in open source as the maintainer of&nbsp;
         <a href="https://github.com/themesberg/flowbite-react/pulls?q=is%3Apr+author%3Atulup-conner">
-          50+ pull requests to flowbite-react
+          flowbite-react
         </a>
         , a Tailwind CSS-based React component library with 25,000 weekly
         downloads on npm.
@@ -192,6 +192,8 @@ const Contact: FC = function () {
             <td>Github</td>
             <td>
               <a href="https://github.com/connergdavis">connergdavis</a>
+              &nbsp;and&nbsp;
+              <a href="https://github.com/tulup-conner">tulup-conner</a>
             </td>
           </tr>
           <tr>
