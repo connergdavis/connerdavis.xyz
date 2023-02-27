@@ -37,7 +37,7 @@ const App: FC = function () {
         </main>
         <ScrollRestoration />
         <Scripts />
-        {process.env.NODE_ENV === "development" && <LiveReload />}
+        <LiveReload />
         <CloudflareWebAnalytics />
       </body>
     </html>

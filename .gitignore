@@ -1,6 +1,9 @@
 .cache
 .vscode
 app/styles.css
-functions/
+build/*.js
+build/*.js.map
+functions/*.js
+functions/*.js.map
 node_modules
 public/build

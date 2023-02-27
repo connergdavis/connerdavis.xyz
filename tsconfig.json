@@ -1,5 +1,7 @@
 {
   "extends": "@tsconfig/remix/tsconfig.json",
-  "exclude": [".cache", "functions", "node_modules", "public/build"],
-  "include": ["**/*.js", "**/*.mjs", "**/*.ts", "**/*.tsx"]
+  "compilerOptions": {
+    "skipLibCheck": true
+  },
+  "include": ["**/*.cjs", "**/*.mjs", "**/*.ts", "**/*.tsx"]
 }

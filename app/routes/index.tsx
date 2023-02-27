@@ -10,7 +10,7 @@ export const meta: MetaFunction = function () {
 
 const IndexPage: FC = function () {
   return (
-    <div className="p-8 grid grid-cols-1 gap-y-8">
+    <div className="grid grid-cols-1 gap-y-8 p-8">
       <Summary />
       <WhatIveDelivered />
       <WhatImWorkingOn />
@@ -28,14 +28,14 @@ const Summary: FC = function () {
       </header>
       <p className="font-bold">
         My name is Conner Davis, and I'm a full stack software engineer with 8
-        years of professional experience delivering complex web applications for
-        eCommerce clients, higher education institutions, and others.
+        years of professional experience.
       </p>
       <p>
-        The definition has changed over time, but what I really love is (in no
-        particular order):
+        I've delivered complex web applications for eCommerce clients, higher
+        education institutions, marketing agencies and others alike.
       </p>
-      <ul className="py-3">
+      <p>What I really love is (in no particular order):</p>
+      <ul className="pb-3">
         <li>Designing beautiful things.</li>
         <li>Shipping proven code.</li>
         <li>Creating accessible products.</li>
@@ -56,7 +56,8 @@ const Summary: FC = function () {
         <a href="https://github.com/themesberg/flowbite-react/pulls?q=is%3Apr+author%3Atulup-conner">
           50+ pull requests to flowbite-react
         </a>
-        , a promising new Tailwind CSS-based React component library.
+        , a Tailwind CSS-based React component library with 25,000 weekly
+        downloads on npm.
       </p>
     </section>
   );
@@ -129,8 +130,10 @@ const WhatImWorkingOn: FC = function () {
           <a href="https://tulup.io/brand">tulup.io</a>
         </li>
         <li>
-          <a href="https://flowbite-react.com">flowbite-react</a>
-          &nbsp;(open source contributor)
+          <a href="https://github.com/themesberg/flowbite-react">
+            flowbite-react
+          </a>
+          &nbsp;(open source maintainer)
         </li>
       </ul>
       <p>
